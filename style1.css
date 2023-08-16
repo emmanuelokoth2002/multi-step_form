@@ -1,0 +1,86 @@
+/* Media query for smaller screens */
+@media (max-width: 768px)  {
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: #bdbaba;
+        font-family:Ubuntu;
+        font-weight: 400, 500, 700;
+    }
+    .container1{
+        width: 490px;
+        background: white;
+    }
+    .container{
+        width: 490px;
+        background-color: white;
+        display: flex;
+    }
+    .navigation{
+        margin-left: -5px;
+        width: 490px;
+        background: blue;
+        top: 0;
+        height: fixed;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        z-index: -2;
+    }
+    .info{
+        display: none;
+    }
+    .content{
+        width: 490px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        z-index: -1;
+    }
+    .button{
+        margin-top: 50px;
+        margin-left: 80%;
+        height: 40px;
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: black;
+    }
+    .button1{
+        margin-left:10px;
+        margin-top: -45px;
+        height: 40px;
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: whitesmoke;
+        border: none;
+    }
+    #next{
+        color: white;
+        font-weight: 700;
+        background: black;
+    }
+    #back{
+        color:#bdbaba;
+        font-weight: 700;
+        border: none;
+    }
+    .mycard{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    #change{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+}
